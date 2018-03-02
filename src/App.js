@@ -4,7 +4,7 @@ import HTML5Backend from 'react-dnd-html5-backend';
 
 import HolePanel from './components/HolePanel';
 import PegPanel from './components/PegPanel';
-
+import Signature from './components/Signature';
 
 
 class App extends Component {
@@ -14,6 +14,11 @@ class App extends Component {
 			<div>
 				<HolePanel />
 				<PegPanel />
+				<Signature 
+					name="Leah Carr" 
+					portfolioLink="https://attributeofextension.github.io/"
+					githubLink="https://github.com/attributeofextension/react-dnd-pegs/"
+				/>
 			</div>
 		);
 	}
